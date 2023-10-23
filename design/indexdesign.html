@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+  background-color: #fefef7;
+}
+
+.header {
+  background-image: url(../image/images.jpg);
+  font-family: "Georgia", Serif;
+  color: #311B92;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #bdf0f0;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #e2feb9;
+}
+
+.aside {
+  background-color: #bde3f0;
+  padding: 15px;
+  color: #72069b;
+  font-family: "Monaco", Monospace;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #ebdbf3;
+  color: #022883;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <div id="headerText">
+        <h1> CSTU PASSPORT</h1>
+        <h2> Homepage</h2> 
+    </div>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li><a href="../html/MyActivites.html">My Activites</a></li>
+      <li><a href="../html/MyAdvisor.html">My Advisor</a></li>
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9">
+    <div id="ITMS"> 
+        <img src="../image/north.jpg" width="290" height="370" alt="picture not loading"/>
+        <div class="col-7 col-s-8"> 
+        <h3 style="text-shadow: 2px 2px 5px #FF7043";>Introduce My Self</h3>
+        <ul style="color: #607D8B;">
+            <li><strong>My Name is</strong> Manatsanan Udomrat </li>
+            <li><strong>My Nickname is</strong> North</li>
+            <li><strong>My Birth Day :</strong> 06/09/2004</li>
+            <li><strong>Graduated high school from </strong> Suankularb Wittayalai Rangsit School</li>
+            <li><strong>My favorite color is</strong> black and orange</li>
+            <li>I like tteokbokki.</li>
+            <li>I don't like tomato</li>
+            <li><strong>My hobby is</strong> watch a movie and listen music</li>
+        </ul>
+        </div>
+    </div>
+  </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+        <div id="videoITMS">
+            <p>My introduction video </p>
+            <video src="../vdo/videome.mp4" width="220" height="130" controls>
+               video not supported
+            </video>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+    <p>contact</p>
+    <ul style="text-align: center;">
+        <ol>instagram : sepnorth</ol>
+        <ol>FB : Manatsanan UD</ol>
+        <ol>email : manatsanan.udo@tu.ac.th</ol>
+    </ul>
+</div>
+
+</body>
+</html>
+
