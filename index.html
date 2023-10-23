@@ -2,29 +2,62 @@
 <html>
     <head>
         <title>My CSTU Passport</title>
-        <link rel="stylesheet" href="/css/indexCss.css">
+        <link rel="stylesheet" href="design/indexdesign.css">
     </head>
     <body>
-        <div id="headerText">
-            <h1><strong> CSTU PASSPORT</strong></h1>
-            <h2><em><p>Homepage&#128512;</p></em></h2>
+        <div class="header">
+            <div id="headerText">
+                <h1> CSTU PASSPORT</h1>
+                <h2> Homepage</h2> 
+            </div>
         </div>
-        <div id="Introduce My Self">
-            <img src="image/north.jpg" width="230" height="290" alt="picture not loading"/> 
-            <h3><p>Introduce My Self</p></h3>
+        
+        <div class="row">
+          <div class="col-3 col-s-3 menu">
             <ul>
-                <li>My Name is Manatsanan Udomrat</li>
-                <li>My Nickname is North</li>
-                <li>My Birth Day : 06/09/2004</li>
-                <li>Graduated high school from Suankularb Wittayalai Rangsit School</li>
-                <li>My favorite color is black and orange</li>
-                <li>I like tteokbokki.</li>
-                <li>I don't like tomato</li>
-                <li>My hobby is watch a movie and listen music</li>
+              <li><a href="html/MyActivites.html">My Activites</a></li>
+              <li><a href="html/MyAdvisor.html">My Advisor</a></li>
+            </ul>
+          </div>
+        
+          <div class="col-6 col-s-9">
+            <div id="ITMS"> 
+                <img src="image/north.jpg" width="290" height="370" alt="picture not loading"/>
+                <div class="col-5 col-s-6"> 
+                <h3 style="text-shadow: 2px 2px 5px #FF7043";>Introduce My Self</h3>
+                <ul style="color: #607D8B;">
+                    <li><strong>My Name is</strong> Manatsanan Udomrat </li>
+                    <li><strong>My Nickname is</strong> North</li>
+                    <li><strong>My Birth Day :</strong> 06/09/2004</li>
+                    <li><strong>Graduated high school from </strong> Suankularb Wittayalai Rangsit School</li>
+                    <li><strong>My favorite color is</strong> black and orange</li>
+                    <li>I like tteokbokki.</li>
+                    <li>I don't like tomato</li>
+                    <li><strong>My hobby is</strong> watch a movie and listen music</li>
+                </ul>
+                </div>
+            </div>
+          </div>
+        
+          <div class="col-2 col-s-12">
+            <div class="aside">
+                <div id="videoITMS">
+                    <p>My introduction video </p>
+                    <video src="vdo/videome.mp4" width="220" height="130" controls>
+                       video not supported
+                    </video>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="footer">
+            <p>contact</p>
+            <ul style="text-align: center;">
+                <ol>instagram : sepnorth</ol>
+                <ol>FB : Manatsanan UD</ol>
+                <ol>email : manatsanan.udo@tu.ac.th</ol>
             </ul>
         </div>
-        <video src="vdo/videome.mp4" width="540" height="430" controls>
-            video not supported
-        </video>
     </body>
 </html>

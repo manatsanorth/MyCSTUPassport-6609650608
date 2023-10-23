@@ -1,74 +1,31 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>My CSTU Passport</title>
-    </head>
-    <body>
-        <style>
-            #headerText {
-                background-image: url(image/images.jpg);
+
+#headerText {
+    background-image: url(image/images.jpg);
                 
-            }
-        </style>
-        <style>
-            h1 {
-                font-family: "Georgia", Serif;
-                color: #311B92;
-                text-align: center;
-            }
-        </style>
-        <style>
-            h2 {
-                font-family: "Monaco", Monospace;
-                color: #0288D1;
-                text-align: center;
-            }
-        </style>
-        <div id="headerText">
-            <h1> CSTU PASSPORT</h1>
-            <h2> Homepage</h2> 
-        </div>
-        <style>
-            #ITMS {
-               text-align:center;
-               font-size: large;
-               border-style: double;
-               border-color:#FFAB91;
-               background-color: #FFFDE7;
-               font-family: "Helvetica", Sans-serif;
-            }
-        </style>
-        <div id="ITMS"> 
-            <img src="image/north.jpg" width="320" height="390" alt="picture not loading"/>   
-            <h3 style="text-shadow: 2px 2px 5px #FF7043";>Introduce My Self</h3>
-            <ul style="color: #607D8B;">
-                <li><strong>My Name is</strong> Manatsanan Udomrat </li>
-                <li><strong>My Nickname is</strong> North</li>
-                <li><strong>My Birth Day :</strong> 06/09/2004</li>
-                <li><strong>Graduated high school from </strong> Suankularb Wittayalai Rangsit School</li>
-                <li><strong>My favorite color is</strong> black and orange</li>
-                <li>I like tteokbokki.</li>
-                <li>I don't like tomato</li>
-                <li><strong>My hobby is</strong> watch a movie and listen music</li>
-            </ul>
-        </div>
-        <style>
-            #videoITMS {
-               text-align:center;
-               font-size:xx-large;
-               font-family: "Lucida Console", Monospace;
-               color: #6A518A;
-               text-shadow: 2px 2px 5px #FF80AB;
-               background-image: url(image/images.jpg);
-            }
-        </style>
-        <div id="videoITMS">
-            <p>My introduction video </p>
-            <video src="vdo/videome.mp4" width="520" height="430" controls>
-               video not supported
-            </video>
-        </div>
-        <p><a href="html/MyActivies.html">My Activites</a></p>
-        <p><a href="html/MyAdvisor.html">My Advisor</a></p>
-    </body>
-</html>
+}
+ h1 {
+    font-family: "Georgia", Serif;
+    color: #311B92;
+    text-align: center;
+    }
+ h2 {
+    font-family: "Monaco", Monospace;
+    color: #0288D1;
+    text-align: center;
+    }
+    #ITMS {
+      text-align:center;
+      font-size: large;
+      border-style: double;
+      border-color:#FFAB91;
+      background-color: #FFFDE7;
+      font-family: "Helvetica", Sans-serif;
+    }
+     #videoITMS {
+       text-align:center;
+       font-size:xx-large;
+       font-family: "Lucida Console", Monospace;
+       color: #6A518A;
+       text-shadow: 2px 2px 5px #FF80AB;
+       background-image: url(image/images.jpg);
+     }
